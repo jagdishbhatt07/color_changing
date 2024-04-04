@@ -1,0 +1,44 @@
+body {
+    font-style:italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color: #6ee2e6; */
+    background-image: url(./color_chg.avif);
+    /* background: no-repeat; */
+    background: cover;
+    background-size: 100% 100%;
+  }
+  
+  #colorBox {
+    width: 20vw;
+    height: 40vh;
+    background-color: blue;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:xxx-large;
+    color: rgb(138, 132, 125);
+    border-radius: 20px 2px 20px;
+  }
+  
+  .button{
+    padding: 20px 40px;
+    margin: 20px;
+    border: none;
+    border-radius: 20px 2px 20px;
+    cursor: pointer;
+    background-color: rgb(173, 170, 170);
+    color: rgb(10, 11, 12);
+    font-size: x-large;
+  }
+  .button:hover{
+    color:brown;
+    background-color:greenyellow;
+    font-style: italic;
+    
+  }
+  
